@@ -2,23 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://liyi-up.top/2021/07/13/JavaScript-ES6%EF%BC%88%E4%B8%8B%EF%BC%89/</loc>
+    <loc>https://liyi-up.top/2021/07/18/React-%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80/</loc>
     
-    <lastmod>2021-07-17T01:08:27.450Z</lastmod>
+    <lastmod>2021-07-19T06:25:36.159Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://liyi-up.top/2021/07/11/JavaScript-ES6%EF%BC%88%E4%B8%8A%EF%BC%89/</loc>
+    <loc>https://liyi-up.top/2021/07/17/React-JSX/</loc>
     
-    <lastmod>2021-07-17T00:55:02.626Z</lastmod>
+    <lastmod>2021-07-18T10:31:30.069Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liyi-up.top/2020/12/15/React-%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2021-07-17T08:30:12.512Z</lastmod>
     
   </url>
   
   <url>
     <loc>https://liyi-up.top/2021/07/15/NodeJS-%E5%B8%B8%E7%94%A8%E6%A8%A1%E5%9D%97/</loc>
     
-    <lastmod>2021-07-17T00:23:45.227Z</lastmod>
+    <lastmod>2021-07-17T06:57:02.710Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liyi-up.top/2021/07/11/JavaScript-ES6%EF%BC%88%E4%B8%8A%EF%BC%89/</loc>
+    
+    <lastmod>2021-07-17T02:48:46.506Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://liyi-up.top/2021/07/13/JavaScript-ES6%EF%BC%88%E4%B8%8B%EF%BC%89/</loc>
+    
+    <lastmod>2021-07-17T02:34:45.050Z</lastmod>
     
   </url>
   
@@ -306,13 +327,6 @@
     <loc>https://liyi-up.top/2020/01/13/blog%E4%B8%AD%E6%8F%92%E5%85%A5%E9%9F%B3%E4%B9%90/</loc>
     
     <lastmod>2021-06-15T06:47:02.045Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://liyi-up.top/2020/12/15/React-note/</loc>
-    
-    <lastmod>2021-06-15T06:46:42.648Z</lastmod>
     
   </url>
   
