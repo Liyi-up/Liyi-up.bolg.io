@@ -1,5 +1,6 @@
-https://liyi-up.top/2021/07/27/React-react-navgation/
-https://liyi-up.top/2021/07/27/React-react-native%E5%B8%B8%E7%94%A8%E7%BB%84%E4%BB%B6/
+https://liyi-up.top/2021/07/28/React-native-%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/
+https://liyi-up.top/2021/07/27/React-navgation/
+https://liyi-up.top/2021/07/27/React-native%E7%BB%84%E4%BB%B6%E5%8C%96/
 https://liyi-up.top/2021/07/24/%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF-axios/
 https://liyi-up.top/2021/07/23/React-react-redux/
 https://liyi-up.top/2021/07/22/React-redux/
@@ -17,4 +18,3 @@ https://liyi-up.top/2021/07/12/JavaScript-jQuery%E5%85%B6%E4%BB%96%E6%96%B9%E6%B
 https://liyi-up.top/2021/07/12/JavaScript-jQuery%E4%BA%8B%E4%BB%B6/
 https://liyi-up.top/2021/07/11/JavaScript-ES6%EF%BC%88%E4%B8%8A%EF%BC%89/
 https://liyi-up.top/2021/07/10/JavaScript-%E6%AD%A3%E5%88%99%E8%A1%A8%E8%BE%BE%E5%BC%8F/
-https://liyi-up.top/2021/07/10/JavaScript-%E5%87%BD%E6%95%B0%E8%BF%9B%E9%98%B6/
