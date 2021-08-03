@@ -215,6 +215,138 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/07/12/JavaScript-jQuery%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/author.jpg">
+      <meta itemprop="name" content="Liyi">
+      <meta itemprop="description" content="A Programmer">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Liyi's personal blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2021/07/12/JavaScript-jQuery%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95/" class="post-title-link" itemprop="url">JavaScript-jQuery其他方法</a>
+        </h1>
+
+        <div class="post-meta">
+                    
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2021-07-12 17:14:34" itemprop="dateCreated datePublished" datetime="2021-07-12T17:14:34+08:00">2021-07-12</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-07-13 10:10:28" itemprop="dateModified" datetime="2021-07-13T10:10:28+08:00">2021-07-13</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Web</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index">
+                    <span itemprop="name">前端开发</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/W3C/" itemprop="url" rel="index">
+                    <span itemprop="name">W3C</span>
+                  </a>
+                </span>
+            </span>
+
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2021/07/12/JavaScript-jQuery%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2021/07/12/JavaScript-jQuery%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  <br>
+            <span class="post-meta-item" title="本文字数">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+                <span class="post-meta-item-text">本文字数：</span>
+              <span>7k</span>
+            </span>
+            <span class="post-meta-item" title="阅读时长">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+                <span class="post-meta-item-text">阅读时长 &asymp;</span>
+              <span>6 分钟</span>
+            </span>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="jQuery-拷贝对象"><a href="#jQuery-拷贝对象" class="headerlink" title="jQuery 拷贝对象"></a>jQuery 拷贝对象</h2><p>如果想要把某个对象拷贝（合并）给另外一个对象使用，此时可以使用$.extend() 方法</p>
+<p><strong>语法：</strong></p>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$.extend([deep],traget,object1,[objectN])</span><br></pre></td></tr></table></figure>
+
+<p>1.<code>deep</code>：如果设为true为深拷贝，默认为false 浅拷贝</p>
+<p>2.<code>traget</code>：要拷贝的目标对象</p>
+<p>3.<code>object1</code>：待拷贝到第一个对象的对象</p>
+<p>4.<code>objectN</code>：待拷贝到第N个对象的对象</p>
+<p>5.浅拷贝是把拷贝的对象<font color="red">复杂数据类型中的地址</font>拷贝给目标对象，修改目标对象<font color="red">会影响</font>被拷贝对象</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/07/12/JavaScript-jQuery%E5%85%B6%E4%BB%96%E6%96%B9%E6%B3%95/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/07/12/JavaScript-jQuery%E4%BA%8B%E4%BB%B6/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1359,131 +1491,6 @@
   
   
 
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/07/07/JavaScript-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%89%B9%E6%95%88/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/author.jpg">
-      <meta itemprop="name" content="Liyi">
-      <meta itemprop="description" content="A Programmer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liyi's personal blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/07/07/JavaScript-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%89%B9%E6%95%88/" class="post-title-link" itemprop="url">JavaScript-移动端特效</a>
-        </h1>
-
-        <div class="post-meta">
-                    
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-07-07 20:55:58" itemprop="dateCreated datePublished" datetime="2021-07-07T20:55:58+08:00">2021-07-07</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-07-08 20:57:18" itemprop="dateModified" datetime="2021-07-08T20:57:18+08:00">2021-07-08</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Web/" itemprop="url" rel="index">
-                    <span itemprop="name">Web</span>
-                  </a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Web/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index">
-                    <span itemprop="name">前端开发</span>
-                  </a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Web/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/W3C/" itemprop="url" rel="index">
-                    <span itemprop="name">W3C</span>
-                  </a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2021/07/07/JavaScript-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%89%B9%E6%95%88/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/07/07/JavaScript-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%89%B9%E6%95%88/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>5k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>5 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h2 id="触屏事件"><a href="#触屏事件" class="headerlink" title="触屏事件"></a>触屏事件</h2><h3 id="触屏事件概述"><a href="#触屏事件概述" class="headerlink" title="触屏事件概述"></a>触屏事件概述</h3><p>移动端浏览器兼容性较好，我们不需要考虑以前 JS 的兼容性问题，可以放心的使用原生 JS 书写效果，但是移动端也有自己独特的地方。比如<font color="red">触屏事件 touch（也称触摸事件），</font>Android 和 IOS 都有。</p>
-<p><code>touch</code> 对象代表一个触摸点。触摸点可能是一根手指，也可能是一根触摸笔。触屏事件可相应用户手指（或触控笔）对屏幕或者触控板操作。</p>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/07/07/JavaScript-%E7%A7%BB%E5%8A%A8%E7%AB%AF%E7%89%B9%E6%95%88/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
   </div>
 
   
@@ -1555,7 +1562,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">138</span>
+          <span class="site-state-item-count">139</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1673,12 +1680,12 @@ setInterval("createtime()",250);
     <span class="post-meta-item-icon">
       <i class="fa fa-area-chart"></i>
     </span>
-    <span title="站点总字数">1.4m</span>
+    <span title="站点总字数">1.5m</span>
     <span class="post-meta-divider">|</span>
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">21:46</span>
+    <span title="站点阅读时长">21:59</span>
 </div>
 
 <!--
