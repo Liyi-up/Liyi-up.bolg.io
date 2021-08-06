@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://liyi-up.top/2021/08/03/React-Native%E5%8A%A8%E7%94%BB/</loc>
-    <lastmod>2021-08-03</lastmod>
+    <loc>https://liyi-up.top/2021/08/06/React-Native-apk%E6%89%93%E5%8C%85/</loc>
+    <lastmod>2021-08-06</lastmod>
   </url>
   <url>
-    <loc>https://liyi-up.top/2021/07/28/React-native-%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/</loc>
+    <loc>https://liyi-up.top/2021/07/27/React-Native%E7%BB%84%E4%BB%B6%E5%8C%96/</loc>
+    <lastmod>2021-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://liyi-up.top/2020/12/18/React-Native%E5%9F%BA%E7%A1%80/</loc>
+    <lastmod>2021-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://liyi-up.top/2021/08/03/React-Native%E5%8A%A8%E7%94%BB/</loc>
+    <lastmod>2021-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://liyi-up.top/2021/07/28/React-Native%E8%B8%A9%E5%9D%91%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2021-08-06</lastmod>
+  </url>
+  <url>
+    <loc>https://liyi-up.top/2021/07/23/React-react-redux/</loc>
     <lastmod>2021-08-03</lastmod>
   </url>
   <url>
@@ -21,23 +37,11 @@
     <lastmod>2021-07-28</lastmod>
   </url>
   <url>
-    <loc>https://liyi-up.top/2020/12/18/React-native%E5%9F%BA%E7%A1%80/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  <url>
-    <loc>https://liyi-up.top/2021/07/27/React-native%E7%BB%84%E4%BB%B6%E5%8C%96/</loc>
-    <lastmod>2021-07-28</lastmod>
-  </url>
-  <url>
     <loc>https://liyi-up.top/2021/07/24/%E7%BD%91%E7%BB%9C%E9%80%9A%E8%AE%AF-axios/</loc>
     <lastmod>2021-07-26</lastmod>
   </url>
   <url>
     <loc>https://liyi-up.top/2021/07/22/React-redux/</loc>
-    <lastmod>2021-07-23</lastmod>
-  </url>
-  <url>
-    <loc>https://liyi-up.top/2021/07/23/React-react-redux/</loc>
     <lastmod>2021-07-23</lastmod>
   </url>
   <url>
