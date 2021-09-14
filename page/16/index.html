@@ -215,7 +215,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/04/08/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/">
+    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2020/01/12/%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2%E7%BC%96%E7%A8%8B/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/author.jpg">
@@ -229,7 +229,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2021/04/08/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" class="post-title-link" itemprop="url">Java网络编程</a>
+            <a href="/2020/01/12/%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2%E7%BC%96%E7%A8%8B/" class="post-title-link" itemprop="url">面向切面编程</a>
         </h1>
 
         <div class="post-meta">
@@ -240,14 +240,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-04-08 12:01:36" itemprop="dateCreated datePublished" datetime="2021-04-08T12:01:36+08:00">2021-04-08</time>
+              <time title="创建时间：2020-01-12 15:54:39" itemprop="dateCreated datePublished" datetime="2020-01-12T15:54:39+08:00">2020-01-12</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-05-30 16:54:58" itemprop="dateModified" datetime="2021-05-30T16:54:58+08:00">2021-05-30</time>
+                <time title="修改时间：2021-03-30 10:32:23" itemprop="dateModified" datetime="2021-03-30T10:32:23+08:00">2021-03-30</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -257,12 +257,6 @@
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
                   <a href="/categories/Java/" itemprop="url" rel="index">
                     <span itemprop="name">Java</span>
-                  </a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/Java%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">Java高级编程</span>
                   </a>
                 </span>
             </span>
@@ -276,8 +270,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/04/08/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/04/08/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/01/12/%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2%E7%BC%96%E7%A8%8B/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/01/12/%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2%E7%BC%96%E7%A8%8B/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -287,14 +281,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>18k</span>
+              <span>6.2k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>16 分钟</span>
+              <span>6 分钟</span>
             </span>
 
         </div>
@@ -306,13 +300,10 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h2 id="网络编程概述"><a href="#网络编程概述" class="headerlink" title="网络编程概述"></a>网络编程概述</h2><ul>
-<li>Java是 Internet 上的语言，它从语言级上提供了对网络应用程 序的支持，程序员能够很容易开发常见的网络应用程序。</li>
-<li>Java提供的网络类库，可以实现无痛的网络连接，联网的底层 细节被隐藏在 Java 的本机安装系统里，由 JVM 进行控制。并 且 Java 实现了一个跨平台的网络库，<strong>程序员面对的是一个统一 的网络编程环境</strong>。</li>
-</ul>
+          <p>在传统的编写业务逻辑处理代码时，我们通常会习惯性地做几件事情：日志记录、事务控制及权限控制等，然后才是编写核心的业务逻辑处理代码。当代码编写完成回头再看时，不禁发现，扬扬洒洒上百行代码中，真正用于核心业务逻辑处理才那么几行，如图6-4所示。方法复方法，类复类，就这样子带着无可奈何遗憾地度过了多少个春秋。这倒也罢，倘若到了项目的尾声，突然决定在权限控制上需要进行大的变动时，成千上万个方法又得一一”登门拜访”，痛苦”雪上加霜”。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2021/04/08/Java%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/#more" rel="contents">
+              <a class="btn" href="/2020/01/12/%E9%9D%A2%E5%90%91%E5%88%87%E9%9D%A2%E7%BC%96%E7%A8%8B/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -336,7 +327,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/04/06/JavaIO%E6%B5%81/">
+    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2020/01/11/js%E4%B8%AD.val()%E5%92%8C.html()%E5%92%8Cattr()%E5%92%8Ctext()%E7%9A%84%E5%8C%BA%E5%88%AB/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/author.jpg">
@@ -350,7 +341,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2021/04/06/JavaIO%E6%B5%81/" class="post-title-link" itemprop="url">JavaIO流</a>
+            <a href="/2020/01/11/js%E4%B8%AD.val()%E5%92%8C.html()%E5%92%8Cattr()%E5%92%8Ctext()%E7%9A%84%E5%8C%BA%E5%88%AB/" class="post-title-link" itemprop="url">js中.val()和.html()和attr()和text()的区别</a>
         </h1>
 
         <div class="post-meta">
@@ -361,14 +352,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-04-06 22:32:57" itemprop="dateCreated datePublished" datetime="2021-04-06T22:32:57+08:00">2021-04-06</time>
+              <time title="创建时间：2020-01-11 23:55:38" itemprop="dateCreated datePublished" datetime="2020-01-11T23:55:38+08:00">2020-01-11</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-09 11:53:04" itemprop="dateModified" datetime="2021-04-09T11:53:04+08:00">2021-04-09</time>
+                <time title="修改时间：2020-06-16 11:15:35" itemprop="dateModified" datetime="2020-06-16T11:15:35+08:00">2020-06-16</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -376,14 +367,14 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
+                  <a href="/categories/Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Web</span>
                   </a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/Java%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">Java高级编程</span>
+                  <a href="/categories/Web/%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index">
+                    <span itemprop="name">前端开发</span>
                   </a>
                 </span>
             </span>
@@ -397,8 +388,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/04/06/JavaIO%E6%B5%81/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/04/06/JavaIO%E6%B5%81/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/01/11/js%E4%B8%AD.val()%E5%92%8C.html()%E5%92%8Cattr()%E5%92%8Ctext()%E7%9A%84%E5%8C%BA%E5%88%AB/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/01/11/js%E4%B8%AD.val()%E5%92%8C.html()%E5%92%8Cattr()%E5%92%8Ctext()%E7%9A%84%E5%8C%BA%E5%88%AB/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -408,14 +399,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>37k</span>
+              <span>1k</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>33 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -427,15 +418,12 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="File类的使用"><a href="#File类的使用" class="headerlink" title="File类的使用"></a>File类的使用</h3><ul>
-<li>java.io.File类：<strong>文件和文件目录路径</strong>的抽象表示形式，与平台无关</li>
-<li>File 能新建、删除、重命名文件和目录，但 File 不能访问文件内容本身。 如果需要访问文件内容本身，则需要使用输入/输出流。</li>
-<li><strong>想要在Java程序中表示一个真实存在的文件或目录，那么必须有一个File对 象，但是Java程序中的一个File对象，可能没有一个真实存在的文件或目录。</strong></li>
-<li>File对象可以作为参数传递给流的构造器</li>
-</ul>
+          <h1 id="1-val"><a href="#1-val" class="headerlink" title="1. val()"></a>1. val()</h1><p>定义和用法:<br>val() 方法返回或设置被选元素的值。</p>
+<p>元素的值是通过 value 属性设置的。其中有部分元素没有value，该方法大多用于 input 元素。</p>
+<p>如果该方法未设置参数，则返回被选元素的当前值。</p>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2021/04/06/JavaIO%E6%B5%81/#more" rel="contents">
+              <a class="btn" href="/2020/01/11/js%E4%B8%AD.val()%E5%92%8C.html()%E5%92%8Cattr()%E5%92%8Ctext()%E7%9A%84%E5%8C%BA%E5%88%AB/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -459,7 +447,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/04/04/Java%E6%B3%9B%E5%9E%8B/">
+    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2020/01/10/MySQL%E4%BA%8B%E5%8A%A1%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/author.jpg">
@@ -473,7 +461,7 @@
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           
-            <a href="/2021/04/04/Java%E6%B3%9B%E5%9E%8B/" class="post-title-link" itemprop="url">Java泛型</a>
+            <a href="/2020/01/10/MySQL%E4%BA%8B%E5%8A%A1%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/" class="post-title-link" itemprop="url">MySQL事务并发问题的介绍</a>
         </h1>
 
         <div class="post-meta">
@@ -484,14 +472,14 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2021-04-04 22:57:47" itemprop="dateCreated datePublished" datetime="2021-04-04T22:57:47+08:00">2021-04-04</time>
+              <time title="创建时间：2020-01-10 23:07:38" itemprop="dateCreated datePublished" datetime="2020-01-10T23:07:38+08:00">2020-01-10</time>
             </span>
               <span class="post-meta-item">
                 <span class="post-meta-item-icon">
                   <i class="fa fa-calendar-check-o"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-07 21:19:27" itemprop="dateModified" datetime="2021-04-07T21:19:27+08:00">2021-04-07</time>
+                <time title="修改时间：2021-04-28 00:08:55" itemprop="dateModified" datetime="2021-04-28T00:08:55+08:00">2021-04-28</time>
               </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
@@ -499,14 +487,26 @@
               </span>
               <span class="post-meta-item-text">分类于</span>
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
+                  <a href="/categories/Web/" itemprop="url" rel="index">
+                    <span itemprop="name">Web</span>
                   </a>
                 </span>
                   ，
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/Java%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">Java高级编程</span>
+                  <a href="/categories/Web/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/" itemprop="url" rel="index">
+                    <span itemprop="name">后端开发</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index">
+                    <span itemprop="name">数据库</span>
+                  </a>
+                </span>
+                  ，
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Web/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/%E6%95%B0%E6%8D%AE%E5%BA%93/MySQL%E6%95%B0%E6%8D%AE%E5%BA%93/" itemprop="url" rel="index">
+                    <span itemprop="name">MySQL数据库</span>
                   </a>
                 </span>
             </span>
@@ -520,8 +520,8 @@
       </span>
       <span class="post-meta-item-text">Valine：</span>
     
-    <a title="valine" href="/2021/04/04/Java%E6%B3%9B%E5%9E%8B/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/04/04/Java%E6%B3%9B%E5%9E%8B/" itemprop="commentCount"></span>
+    <a title="valine" href="/2020/01/10/MySQL%E4%BA%8B%E5%8A%A1%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/#comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/01/10/MySQL%E4%BA%8B%E5%8A%A1%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/" itemprop="commentCount"></span>
     </a>
   </span>
   
@@ -531,14 +531,14 @@
                 <i class="fa fa-file-word-o"></i>
               </span>
                 <span class="post-meta-item-text">本文字数：</span>
-              <span>14k</span>
+              <span>970</span>
             </span>
             <span class="post-meta-item" title="阅读时长">
               <span class="post-meta-item-icon">
                 <i class="fa fa-clock-o"></i>
               </span>
                 <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>12 分钟</span>
+              <span>1 分钟</span>
             </span>
 
         </div>
@@ -550,263 +550,13 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          <h3 id="为什么要有泛型"><a href="#为什么要有泛型" class="headerlink" title="为什么要有泛型"></a>为什么要有泛型</h3><ul>
-<li><p>泛型：标签</p>
-</li>
-<li><p>举例：</p>
-<ul>
-<li><p>中药店，每个抽屉外面贴着标签</p>
-</li>
-<li><p>超市购物架上很多瓶子，每个瓶子装的是什么，有标签</p></li></ul></li></ul>
+          <ul>
+<li><h3 id="对于同时运行的多个事务，当这些事务访问数据库相同的数据时，如果没有采取必要的隔离机制，就会导致各种并发问题"><a href="#对于同时运行的多个事务，当这些事务访问数据库相同的数据时，如果没有采取必要的隔离机制，就会导致各种并发问题" class="headerlink" title="对于同时运行的多个事务，当这些事务访问数据库相同的数据时，如果没有采取必要的隔离机制，就会导致各种并发问题:"></a>对于同时运行的多个事务，当这些事务访问数据库相同的数据时，如果没有采取必要的隔离机制，就会导致各种并发问题:</h3><p>  <strong>脏读:</strong>对于两个事务T1，T2，T1读取了已经被T2更新但还<strong>没有被提交</strong>的字段。之后，若T2回滚，T1读取的内容就是临时且无效的。</p>
+<p> <strong>不可重复读:</strong>对于两个事务T1,T2,T1读取了一个字段，然后T2<strong>更新</strong>了该字段。之后，  T1再次读取同一个字段，T1再次读取同一个字段，值就不同了。</p>
+<p>  <strong>幻读:</strong>对于两个事务T1,T2,T1从一个表种读取一个字段，然后T2在该表种<strong>插入</strong>了一些新的行，如果T1再次读取同一个表，就会多出几行。</p></li></ul>
           <!--noindex-->
             <div class="post-button">
-              <a class="btn" href="/2021/04/04/Java%E6%B3%9B%E5%9E%8B/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/04/04/Java%E9%9B%86%E5%90%88/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/author.jpg">
-      <meta itemprop="name" content="Liyi">
-      <meta itemprop="description" content="A Programmer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liyi's personal blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/04/04/Java%E9%9B%86%E5%90%88/" class="post-title-link" itemprop="url">Java集合</a>
-        </h1>
-
-        <div class="post-meta">
-                    
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-04-04 20:49:58" itemprop="dateCreated datePublished" datetime="2021-04-04T20:49:58+08:00">2021-04-04</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-06-11 15:06:46" itemprop="dateModified" datetime="2021-06-11T15:06:46+08:00">2021-06-11</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/Java%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">Java高级编程</span>
-                  </a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2021/04/04/Java%E9%9B%86%E5%90%88/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/04/04/Java%E9%9B%86%E5%90%88/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>44k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>40 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="Java集合框架概述"><a href="#Java集合框架概述" class="headerlink" title="Java集合框架概述"></a>Java集合框架概述</h3><ul>
-<li><p>一方面， 面向对象语言对事物的体现都是以对象的形式，为了方便对多个对象 的操作，就要对对象进行存储。另一方面，使用Array存储对象方面具有<strong>一些弊端</strong>，而Java 集合就像一种容器，可以<strong>动态地</strong>把多个对象的引用放入容器中。</p>
-<ul>
-<li><p><strong>数组在内存存储方面的特点：</strong></p>
-<p>数组初始化以后，长度就确定了。</p>
-<p>数组声明的类型，就决定了进行元素初始化时的类型</p></li></ul></li></ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/04/04/Java%E9%9B%86%E5%90%88/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://liyi-up.top/2021/04/04/Java%E6%9E%9A%E4%B8%BE%E7%B1%BB&%E6%B3%A8%E8%A7%A3/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/author.jpg">
-      <meta itemprop="name" content="Liyi">
-      <meta itemprop="description" content="A Programmer">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Liyi's personal blog">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2021/04/04/Java%E6%9E%9A%E4%B8%BE%E7%B1%BB&%E6%B3%A8%E8%A7%A3/" class="post-title-link" itemprop="url">Java枚举类&注解</a>
-        </h1>
-
-        <div class="post-meta">
-                    
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2021-04-04 20:48:47" itemprop="dateCreated datePublished" datetime="2021-04-04T20:48:47+08:00">2021-04-04</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2021-04-08 16:50:55" itemprop="dateModified" datetime="2021-04-08T16:50:55+08:00">2021-04-08</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-                  ，
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/Java%E9%AB%98%E7%BA%A7%E7%BC%96%E7%A8%8B/" itemprop="url" rel="index">
-                    <span itemprop="name">Java高级编程</span>
-                  </a>
-                </span>
-            </span>
-
-          
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2021/04/04/Java%E6%9E%9A%E4%B8%BE%E7%B1%BB&%E6%B3%A8%E8%A7%A3/#comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2021/04/04/Java%E6%9E%9A%E4%B8%BE%E7%B1%BB&%E6%B3%A8%E8%A7%A3/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  <br>
-            <span class="post-meta-item" title="本文字数">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-file-word-o"></i>
-              </span>
-                <span class="post-meta-item-text">本文字数：</span>
-              <span>15k</span>
-            </span>
-            <span class="post-meta-item" title="阅读时长">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-clock-o"></i>
-              </span>
-                <span class="post-meta-item-text">阅读时长 &asymp;</span>
-              <span>13 分钟</span>
-            </span>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h3 id="枚举类的使用"><a href="#枚举类的使用" class="headerlink" title="枚举类的使用"></a>枚举类的使用</h3><h4 id="主要内容"><a href="#主要内容" class="headerlink" title="主要内容:"></a>主要内容:</h4><ul>
-<li>如何自定义枚举类</li>
-<li>如何使用关键字enum定义枚举类</li>
-<li>Enum类的主要方法</li>
-<li>实现接口的枚举类</li>
-</ul>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2021/04/04/Java%E6%9E%9A%E4%B8%BE%E7%B1%BB&%E6%B3%A8%E8%A7%A3/#more" rel="contents">
+              <a class="btn" href="/2020/01/10/MySQL%E4%BA%8B%E5%8A%A1%E5%B9%B6%E5%8F%91%E9%97%AE%E9%A2%98%E7%9A%84%E4%BB%8B%E7%BB%8D/#more" rel="contents">
                 阅读全文 &raquo;
               </a>
             </div>
@@ -830,7 +580,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/15/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><span class="page-number current">16</span><a class="page-number" href="/page/17/">17</a><span class="space">&hellip;</span><a class="page-number" href="/page/30/">30</a><a class="extend next" rel="next" href="/page/17/"><i class="fa fa-angle-right" aria-label="下一页"></i></a>
+    <a class="extend prev" rel="prev" href="/page/15/"><i class="fa fa-angle-left" aria-label="上一页"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/15/">15</a><span class="page-number current">16</span>
   </nav>
 
 
@@ -897,7 +647,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">146</span>
+          <span class="site-state-item-count">153</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
@@ -1020,7 +770,7 @@ setInterval("createtime()",250);
     <span class="post-meta-item-icon">
       <i class="fa fa-coffee"></i>
     </span>
-    <span title="站点阅读时长">22:57</span>
+    <span title="站点阅读时长">23:12</span>
 </div>
 
 <!--
